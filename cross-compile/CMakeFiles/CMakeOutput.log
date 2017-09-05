@@ -1,0 +1,217 @@
+The system is: Linux - 4.9.35-desktop-1.mga6 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/3.7.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/gmake" "cmTC_abdb1/fast"
+/bin/gmake -f CMakeFiles/cmTC_abdb1.dir/build.make CMakeFiles/cmTC_abdb1.dir/build
+gmake[1]: Entering directory '/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abdb1.dir/testCCompiler.c.o
+/bin/cc     -o CMakeFiles/cmTC_abdb1.dir/testCCompiler.c.o   -c /home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_abdb1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abdb1.dir/link.txt --verbose=1
+/bin/cc       CMakeFiles/cmTC_abdb1.dir/testCCompiler.c.o  -o cmTC_abdb1 -rdynamic 
+gmake[1]: Leaving directory '/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/gmake" "cmTC_6cada/fast"
+/bin/gmake -f CMakeFiles/cmTC_6cada.dir/build.make CMakeFiles/cmTC_6cada.dir/build
+gmake[1]: Entering directory '/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6cada.dir/CMakeCCompilerABI.c.o
+/bin/cc     -o CMakeFiles/cmTC_6cada.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_6cada
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cada.dir/link.txt --verbose=1
+/bin/cc      -v CMakeFiles/cmTC_6cada.dir/CMakeCCompilerABI.c.o  -o cmTC_6cada -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/lto-wrapper
+Target: x86_64-mageia-linux-gnu
+Configured with: ../configure --prefix=/usr --libexecdir=/usr/lib --with-slibdir=/lib64 --with-pkgversion='Mageia 5.4.0-5.mga6' --with-bugurl=https://bugs.mageia.org/ --mandir=/usr/share/man --infodir=/usr/share/info --enable-checking=release --enable-languages=c,c++,ada,fortran,objc,obj-c++,java --enable-linker-build-id --build=x86_64-mageia-linux-gnu --host=x86_64-mageia-linux-gnu --with-cpu=generic --with-system-zlib --enable-threads=posix --enable-shared --enable-objc-gc --enable-long-long --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --enable-java-awt=gtk --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-gtk-cairo --disable-libjava-multilib --enable-ssp --disable-libssp --disable-werror --with-isl --with-python-dir=/lib/python2.7/site-packages --enable-lto
+Thread model: posix
+gcc version 5.4.0 (Mageia 5.4.0-5.mga6) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/:/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/:/usr/lib/gcc/x86_64-mageia-linux-gnu/:/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/:/usr/lib/gcc/x86_64-mageia-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/:/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6cada' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/collect2 -plugin /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdbr2Dr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6cada /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_6cada.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64/crtn.o
+gmake[1]: Leaving directory '/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/bin/gmake" "cmTC_6cada/fast"]
+  ignore line: [/bin/gmake -f CMakeFiles/cmTC_6cada.dir/build.make CMakeFiles/cmTC_6cada.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_6cada.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/bin/cc     -o CMakeFiles/cmTC_6cada.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_6cada]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cada.dir/link.txt --verbose=1]
+  ignore line: [/bin/cc      -v CMakeFiles/cmTC_6cada.dir/CMakeCCompilerABI.c.o  -o cmTC_6cada -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-mageia-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/usr --libexecdir=/usr/lib --with-slibdir=/lib64 --with-pkgversion='Mageia 5.4.0-5.mga6' --with-bugurl=https://bugs.mageia.org/ --mandir=/usr/share/man --infodir=/usr/share/info --enable-checking=release --enable-languages=c,c++,ada,fortran,objc,obj-c++,java --enable-linker-build-id --build=x86_64-mageia-linux-gnu --host=x86_64-mageia-linux-gnu --with-cpu=generic --with-system-zlib --enable-threads=posix --enable-shared --enable-objc-gc --enable-long-long --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --enable-java-awt=gtk --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-gtk-cairo --disable-libjava-multilib --enable-ssp --disable-libssp --disable-werror --with-isl --with-python-dir=/lib/python2.7/site-packages --enable-lto]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 (Mageia 5.4.0-5.mga6) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/:/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/:/usr/lib/gcc/x86_64-mageia-linux-gnu/:/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/:/usr/lib/gcc/x86_64-mageia-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/:/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6cada' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/collect2 -plugin /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdbr2Dr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6cada /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_6cada.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64/crtn.o]
+    arg [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdbr2Dr.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6cada] ==> ignore
+    arg [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0] ==> dir [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0]
+    arg [-L/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../..] ==> dir [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../..]
+    arg [CMakeFiles/cmTC_6cada.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0] ==> [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0]
+  collapse library dir [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-mageia-linux-gnu/5.4.0;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/gmake" "cmTC_72832/fast"
+/bin/gmake -f CMakeFiles/cmTC_72832.dir/build.make CMakeFiles/cmTC_72832.dir/build
+gmake[1]: Entering directory '/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72832.dir/feature_tests.c.o
+/bin/cc    -std=c11 -o CMakeFiles/cmTC_72832.dir/feature_tests.c.o   -c /home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/feature_tests.c
+Linking C executable cmTC_72832
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72832.dir/link.txt --verbose=1
+/bin/cc       CMakeFiles/cmTC_72832.dir/feature_tests.c.o  -o cmTC_72832 -rdynamic 
+gmake[1]: Leaving directory '/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/gmake" "cmTC_9aaae/fast"
+/bin/gmake -f CMakeFiles/cmTC_9aaae.dir/build.make CMakeFiles/cmTC_9aaae.dir/build
+gmake[1]: Entering directory '/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9aaae.dir/feature_tests.c.o
+/bin/cc    -std=c99 -o CMakeFiles/cmTC_9aaae.dir/feature_tests.c.o   -c /home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9aaae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9aaae.dir/link.txt --verbose=1
+/bin/cc       CMakeFiles/cmTC_9aaae.dir/feature_tests.c.o  -o cmTC_9aaae -rdynamic 
+gmake[1]: Leaving directory '/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/gmake" "cmTC_4fa9d/fast"
+/bin/gmake -f CMakeFiles/cmTC_4fa9d.dir/build.make CMakeFiles/cmTC_4fa9d.dir/build
+gmake[1]: Entering directory '/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fa9d.dir/feature_tests.c.o
+/bin/cc    -std=c90 -o CMakeFiles/cmTC_4fa9d.dir/feature_tests.c.o   -c /home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4fa9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fa9d.dir/link.txt --verbose=1
+/bin/cc       CMakeFiles/cmTC_4fa9d.dir/feature_tests.c.o  -o cmTC_4fa9d -rdynamic 
+gmake[1]: Leaving directory '/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp
+
+Run Build Command:"/bin/gmake" "cmTC_6af98/fast"
+/bin/gmake -f CMakeFiles/cmTC_6af98.dir/build.make CMakeFiles/cmTC_6af98.dir/build
+gmake[1]: Entering directory '/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6af98.dir/testCXXCompiler.cxx.o
+/bin/c++      -o CMakeFiles/cmTC_6af98.dir/testCXXCompiler.cxx.o -c /home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_6af98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6af98.dir/link.txt --verbose=1
+/bin/c++        CMakeFiles/cmTC_6af98.dir/testCXXCompiler.cxx.o  -o cmTC_6af98 -rdynamic 
+gmake[1]: Leaving directory '/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp'
+
+

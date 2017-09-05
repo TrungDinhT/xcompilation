@@ -1,0 +1,3 @@
+/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
+/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir
+/home/thanhtrungdinh/Desktop/projet1/cross-compile/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d38be.dir
