@@ -1,0 +1,13 @@
+# Target labels
+ newlib
+# Source files and their labels
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/newlib
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/newlib.rule
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/newlib-complete.rule
+/opt/gcclynx/src/newlib-stamp/newlib-install.rule
+/opt/gcclynx/src/newlib-stamp/newlib-mkdir.rule
+/opt/gcclynx/src/newlib-stamp/newlib-download.rule
+/opt/gcclynx/src/newlib-stamp/newlib-update.rule
+/opt/gcclynx/src/newlib-stamp/newlib-patch.rule
+/opt/gcclynx/src/newlib-stamp/newlib-configure.rule
+/opt/gcclynx/src/newlib-stamp/newlib-build.rule

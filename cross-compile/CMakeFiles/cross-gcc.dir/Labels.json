@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/cross-gcc"
+		},
+		{
+			"file" : "/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/cross-gcc.rule"
+		},
+		{
+			"file" : "/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/cross-gcc-complete.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-install.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-mkdir.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-download.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-update.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-patch.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-configure.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cross-gcc"
+		],
+		"name" : "cross-gcc"
+	}
+}

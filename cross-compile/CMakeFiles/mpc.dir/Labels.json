@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpc"
+		},
+		{
+			"file" : "/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpc.rule"
+		},
+		{
+			"file" : "/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpc-complete.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpc-stamp/mpc-install.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpc-stamp/mpc-mkdir.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpc-stamp/mpc-download.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpc-stamp/mpc-update.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpc-stamp/mpc-patch.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpc-stamp/mpc-configure.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpc-stamp/mpc-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mpc"
+		],
+		"name" : "mpc"
+	}
+}

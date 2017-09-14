@@ -1,0 +1,13 @@
+# Target labels
+ cross-gcc
+# Source files and their labels
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/cross-gcc
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/cross-gcc.rule
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/cross-gcc-complete.rule
+/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-install.rule
+/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-mkdir.rule
+/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-download.rule
+/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-update.rule
+/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-patch.rule
+/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-configure.rule
+/opt/gcclynx/src/cross-gcc-stamp/cross-gcc-build.rule

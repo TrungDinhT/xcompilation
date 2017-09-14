@@ -1,0 +1,13 @@
+# Target labels
+ gmp
+# Source files and their labels
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/gmp
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/gmp.rule
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/gmp-complete.rule
+/opt/gcclynx/src/gmp-stamp/gmp-install.rule
+/opt/gcclynx/src/gmp-stamp/gmp-mkdir.rule
+/opt/gcclynx/src/gmp-stamp/gmp-download.rule
+/opt/gcclynx/src/gmp-stamp/gmp-update.rule
+/opt/gcclynx/src/gmp-stamp/gmp-patch.rule
+/opt/gcclynx/src/gmp-stamp/gmp-configure.rule
+/opt/gcclynx/src/gmp-stamp/gmp-build.rule

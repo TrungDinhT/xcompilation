@@ -1,0 +1,13 @@
+# Target labels
+ mpc
+# Source files and their labels
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpc
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpc.rule
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpc-complete.rule
+/opt/gcclynx/src/mpc-stamp/mpc-install.rule
+/opt/gcclynx/src/mpc-stamp/mpc-mkdir.rule
+/opt/gcclynx/src/mpc-stamp/mpc-download.rule
+/opt/gcclynx/src/mpc-stamp/mpc-update.rule
+/opt/gcclynx/src/mpc-stamp/mpc-patch.rule
+/opt/gcclynx/src/mpc-stamp/mpc-configure.rule
+/opt/gcclynx/src/mpc-stamp/mpc-build.rule

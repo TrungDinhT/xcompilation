@@ -1,0 +1,13 @@
+# Target labels
+ mpfr
+# Source files and their labels
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpfr
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpfr.rule
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpfr-complete.rule
+/opt/gcclynx/src/mpfr-stamp/mpfr-install.rule
+/opt/gcclynx/src/mpfr-stamp/mpfr-mkdir.rule
+/opt/gcclynx/src/mpfr-stamp/mpfr-download.rule
+/opt/gcclynx/src/mpfr-stamp/mpfr-update.rule
+/opt/gcclynx/src/mpfr-stamp/mpfr-patch.rule
+/opt/gcclynx/src/mpfr-stamp/mpfr-configure.rule
+/opt/gcclynx/src/mpfr-stamp/mpfr-build.rule

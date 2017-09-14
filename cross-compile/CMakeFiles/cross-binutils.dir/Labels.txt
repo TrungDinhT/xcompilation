@@ -1,0 +1,13 @@
+# Target labels
+ cross-binutils
+# Source files and their labels
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/cross-binutils
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/cross-binutils.rule
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/cross-binutils-complete.rule
+/opt/gcclynx/src/cross-binutils-stamp/cross-binutils-install.rule
+/opt/gcclynx/src/cross-binutils-stamp/cross-binutils-mkdir.rule
+/opt/gcclynx/src/cross-binutils-stamp/cross-binutils-download.rule
+/opt/gcclynx/src/cross-binutils-stamp/cross-binutils-update.rule
+/opt/gcclynx/src/cross-binutils-stamp/cross-binutils-patch.rule
+/opt/gcclynx/src/cross-binutils-stamp/cross-binutils-configure.rule
+/opt/gcclynx/src/cross-binutils-stamp/cross-binutils-build.rule

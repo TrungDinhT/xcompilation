@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/gmp"
+		},
+		{
+			"file" : "/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/gmp.rule"
+		},
+		{
+			"file" : "/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/gmp-complete.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/gmp-stamp/gmp-install.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/gmp-stamp/gmp-mkdir.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/gmp-stamp/gmp-download.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/gmp-stamp/gmp-update.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/gmp-stamp/gmp-patch.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/gmp-stamp/gmp-configure.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/gmp-stamp/gmp-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gmp"
+		],
+		"name" : "gmp"
+	}
+}

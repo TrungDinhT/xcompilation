@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpfr"
+		},
+		{
+			"file" : "/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpfr.rule"
+		},
+		{
+			"file" : "/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpfr-complete.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpfr-stamp/mpfr-install.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpfr-stamp/mpfr-mkdir.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpfr-stamp/mpfr-download.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpfr-stamp/mpfr-update.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpfr-stamp/mpfr-patch.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpfr-stamp/mpfr-configure.rule"
+		},
+		{
+			"file" : "/opt/gcclynx/src/mpfr-stamp/mpfr-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mpfr"
+		],
+		"name" : "mpfr"
+	}
+}

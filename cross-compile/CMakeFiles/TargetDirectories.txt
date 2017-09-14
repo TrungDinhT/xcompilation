@@ -1,0 +1,8 @@
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/edit_cache.dir
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/newlib.dir
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/cross-binutils.dir
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/cross-gcc.dir
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/gmp.dir
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/rebuild_cache.dir
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpc.dir
+/home/thanh/Bureau/projet1/cross-compile/CMakeFiles/mpfr.dir
