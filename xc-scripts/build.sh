@@ -20,9 +20,9 @@ BUILD_PATH=$SOURCE_PATH #$ROOT_PATH/build
 TARGET=powerpc-lynx-lynxos
 CONFIGURATION_OPTIONS="--disable-multilib" # --disable-threads --disable-shared
 NEWLIB_OPTION="--with-newlib"
-PARALLEL_MAKE=-j2
-BINUTILS_VERSION=binutils-2.29
-GCC_VERSION=gcc-7.2.0
+PARALLEL_MAKE=-j1
+BINUTILS_VERSION=binutils-2.25.1
+GCC_VERSION=gcc-5.4.0
 NEWLIB_VERSION=newlib-2.5.0.20170818
 MPFR_VERSION=mpfr-3.1.5
 GMP_VERSION=gmp-6.1.2
@@ -32,7 +32,7 @@ CLOOG_VERSION=cloog-0.18.1
 export PATH=$INSTALL_PATH/bin:$PATH
 
 #Prequisites of gcc
-dnf install lib64gmp10 lib64mpc3 lib64mpfr4
+#dnf install lib64gmp10 lib64mpc3 lib64mpfr4
 
 #Clean root dir
 rm -rf $ROOT_PATH/*
@@ -64,7 +64,7 @@ echo "*       BUILD BINUTILS        *"
 echo "*******************************"
 mkdir -p build-binutils
 cd build-binutils
-$SOURCE_PATH/$BINUTILS_VERSION/configure --prefix=$INSTALL_PATH --target=$TARGET $CONFIGURATION_OPTIONS  --disable-nls --disable-werror #--with-sysroot=/opt/lynxos3.1.0
+$SOURCE_PATH/$BINUTILS_VERSION/configure --prefix=$INSTALL_PATH --target=$TARGET $CONFIGURATION_OPTIONS --disable-nls --disable-werror --with-sysroot=/opt/lynxos3.1.0
 make $PARALLEL_MAKE
 make install
 cd $BUILD_PATH
@@ -78,7 +78,15 @@ cd build-gcc
 $SOURCE_PATH/$GCC_VERSION/configure --prefix=$INSTALL_PATH --target=$TARGET --enable-languages=c,c++ $CONFIGURATION_OPTIONS $NEWLIB_OPTION --disable-nls --disable-werror --with-sysroot=/opt/lynxos3.1.0 --with-headers=$SOURCE_PATH/$NEWLIB_VERSION #--with-headers=/opt/lynxos3.1.0/sys/dheaders --with-headers=$SOURCE_PATH/$NEWLIB_VERSION/ 
 make $PARALLEL_MAKE all-gcc
 make install-gcc
- 
+cd $BUILD_PATH
+
+# Step 7. Standard C++ Library
+echo "*******************************"
+echo "*        BUILD LIBGCC         *"
+echo "*******************************"
+cd build-gcc
+make $PARALLEL_MAKE all-target-libgcc
+make install-target-libgcc
 cd $BUILD_PATH
 
 # Steps 4-6. Newlib
@@ -87,19 +95,12 @@ echo "*        BUILD NEWLIB         *"
 echo "*******************************"
 mkdir -p build-newlib
 cd build-newlib
-$SOURCE_PATH/$NEWLIB_VERSION/configure --prefix=$INSTALL_PATH --build=x86_64-mageia-linux-gnu --host=$TARGET --target=$TARGET $CONFIGURATION_OPTIONS
+CC_FOR_TARGET=$INSTALL_PATH/bin/$TARGET-gcc
+$SOURCE_PATH/$NEWLIB_VERSION/configure --prefix=$INSTALL_PATH --target=$TARGET $CONFIGURATION_OPTIONS
 make $PARALLEL_MAKE
 make install
 cd $BUILD_PATH
 
-# Step 7. Standard C++ Library
-echo "*******************************"
-echo "*        FINISH LIBGCC         *"
-echo "*******************************"
-cd build-gcc
-make $PARALLEL_MAKE all-target-libgcc
-make install-target-libgcc
-cd $ROOT_PATH
 
 # Step 8. Finish install GCC
 echo "*******************************"
